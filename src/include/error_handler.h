@@ -20,7 +20,7 @@ const unsigned long int code = val;                       \
 const unsigned int code##_ERRNO_CODE = _errno;
 
 /// Define error information
-ADD_ERROR_INFORMATION(FS_SUCCESSFUL, 0x00000000, "Successful", 0)
+ADD_ERROR_INFORMATION(SUCCESSFUL, 0x00000000, "Successful", 0)
 
 #undef ADD_ERROR_INFORMATION
 

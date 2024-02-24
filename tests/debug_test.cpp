@@ -15,7 +15,7 @@ void func3()
 
 void func2()
 {
-    THROW_ERROR(1, FS_SUCCESSFUL, "Nothing to show here");
+    THROW_ERROR(1, SUCCESSFUL, "Nothing to show here");
 }
 
 void func1()

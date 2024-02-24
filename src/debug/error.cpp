@@ -15,7 +15,7 @@
 const char *error_handler_t::what() const noexcept
 {
     ERROR_SWITCH_START;
-            ERROR_SWITCH_CASE(FS_SUCCESSFUL);
+            ERROR_SWITCH_CASE(SUCCESSFUL);
     ERROR_SWITCH_END;
 }
 
